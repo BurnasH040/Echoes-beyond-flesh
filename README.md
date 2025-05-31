@@ -1,5 +1,3 @@
-// Echoes Beyond Flesh - Mobile-Playable Web Game // HTML5 + JavaScript with touch support
-
 const canvas = document.createElement('canvas'); const ctx = canvas.getContext('2d'); canvas.width = window.innerWidth; canvas.height = window.innerHeight; document.body.appendChild(canvas);
 
 const player = { x: 100, y: 300, width: 32, height: 32, speed: 4 }; let rescuees = [ { x: 300, y: 200, rescued: false }, { x: 500, y: 350, rescued: false }, { x: 700, y: 150, rescued: false } ];
